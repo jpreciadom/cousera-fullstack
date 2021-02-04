@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+ 	font-family: "Times New Roman", Times, serif;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 #mainTittle {
 	color: black;
 	text-align: center;
-	font-size: 35px;
+	font-size: 40px;
 	margin: 50px 0px 50px 0px;
 }
 
@@ -28,7 +29,7 @@ body {
 	border: 1px solid black;
 	color: white;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 	width: 33%;
 	float: right;
 }
@@ -47,6 +48,7 @@ body {
 
 .itemContent {
 	clear: both;
+	font-size: 17px;
 	text-align: justify;
 	padding: 15px;
 	color: black;
