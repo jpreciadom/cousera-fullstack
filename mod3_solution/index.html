@@ -12,18 +12,33 @@
 
 	<!--INICIO HEADER-->
 	<header>
-		<nav id="header-nav" class="navbar navbar-default">
-			<div class="container">
-				<div class="navbar-header">
-					<div class="navbar-brand">
-						<a href="index.html">
-							<h1>Food, LLC</h1>
-						</a>
-					</div>
+		<nav id = "header-nav" class="navbar navbar-default">
+		    <div class="container">
+		    	<div class="navbar-header">
+			    	<a class="navbar-brand" href="index.html"><h1>Food, LLC</h1></a>
 
-					
-				</div>
-			</div>
+			    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#list" aria-expanded="false">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+		            </button>
+			    </div>
+
+			    <div id="list" class="collapse navbar-collapse">
+		            <ul id="nav-list" class="nav navbar-nav hidden-sm hidden-md hidden-lg">
+			            <li>
+			            	<a href="#">Chicken</a>
+			            </li>
+			            <li>
+			            	<a href="#">Beef</a>
+			            </li>
+			            <li>
+			            	<a href="#">Sushi</a>
+			            </li>
+		            </ul>
+	        	</div>
+		    </div>
 		</nav>
 	</header>
 	<!--FIN HEADER-->
@@ -71,5 +86,9 @@
 	</div>
 	<!--FIN MAIN CONTENT-->
 
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
